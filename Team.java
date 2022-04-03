@@ -13,7 +13,7 @@ public class Team
     private int winCount;
     private int drawCount;
     private int defeatCount;
-    private int scoredGoalsCount;
+    private int goalDifference;
     private int points;
     private int matchesPlayed;
     
@@ -67,14 +67,15 @@ public class Team
     {
         defeatCount = i;
     }
-    public int getScoredGoalsCount()
+    
+    public int getGoalDifference()
     {
-        return scoredGoalsCount;
+        return goalDifference;
     }
     
-    public void setScoredGoalsCount(int i)
+    public void setGoalDifferenc(int i)
     {
-        scoredGoalsCount = i;
+        goalDifference = i;
     }
     
     public int getPoints()
