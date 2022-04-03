@@ -53,4 +53,9 @@ public class Match
     {
       this.teamA = teamA;  
     }
+    
+    public void setTeamBScore(int i)
+    {
+        this.teamB = teamB;
+    }
 }

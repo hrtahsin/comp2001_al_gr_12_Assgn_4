@@ -46,11 +46,7 @@ public class Group
         this.teamList = teamList;
     }
     
-    /**method for showing groupRanking */
-    public void showGroupRanking(int groupNumber)
-    {
-        
-    }
+    
 }
 
 
