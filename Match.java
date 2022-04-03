@@ -1,9 +1,10 @@
 import java.util.Date;
 /**
  * Write a description of class Match here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Match class contains informations on each match played
+ * works as a helper class
+ * @author (Hasan Rohan Tahsin)
+ * @version (4/3/2022)
  */
 public class Match
 {
@@ -39,4 +40,17 @@ public class Match
     }
     
     public void setTeamA(Team teamA)
+    {
+        this.teamA = teamA;
+    }
+    
+    public void setTeamB(Team teamB)
+    {
+        this.teamB = teamB;
+    }
+    
+    public void setTeamAScore(int i)
+    {
+      this.teamA = teamA;  
+    }
 }
