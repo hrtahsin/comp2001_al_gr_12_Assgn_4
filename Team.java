@@ -76,7 +76,7 @@ public class Team
     
     public void setScoredGoalCounts(int i)
     {
-        scoredGoalCounts = i;
+        scoredGoalCounts += i;
     }
     
     public int getConceivedGoalCounts()
@@ -86,7 +86,7 @@ public class Team
     
     public void setConceivedGoalCounts(int i)
     {
-        conceivedGoalCounts = i;
+        conceivedGoalCounts += i;
     }
     
     public int getPoints()
@@ -94,6 +94,10 @@ public class Team
         return points;
     }
     
+    public void setPoints(int i)
+    {
+        this.points += i;
+    }
     
     public int getMatchesPlayed()
     {
