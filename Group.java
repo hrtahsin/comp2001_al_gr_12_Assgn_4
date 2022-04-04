@@ -47,7 +47,14 @@ public class Group
     }
     
     public void groupChampion()
-    {
+    {  int highestPoints = 0;
+        for(int i = 0; i < teamList.size(); i++){
+            if (teamList.get(i).getPoints() > highestPoints){
+                hghestPoints = teamList.get(i).getPoints();
+                String groupChampion = teamList.get(i)
+            }
+            else if (teamList.get(i).getPoints() == highestPoints){
+                teamList.get(i).tieBreaker();
         
     }
     
