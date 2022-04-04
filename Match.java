@@ -58,4 +58,6 @@ public class Match
     {
         this.teamB = teamB;
     }
+    public goalCount
+    public knockOut
 }
