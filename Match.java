@@ -15,6 +15,13 @@ public class Match
     private int teamAScore;
     private int teamBScore;
     private Date date;
+    public static final int MAX_GOALS = 4;
+    private Random randomizer;
+    
+    public Match(){
+        randomizer = new Random();
+        
+    }
     
     public Team getTeamA()
     {
@@ -63,6 +70,22 @@ public class Match
     
     public void matchWinner(Team teamA, Team teamB)
     {
+        public void matchWinner(Team teamA, Team teamB)
+    {
+        int teamAScore = randomizer.nextInt(MAX_GOALS) + 1;
+        int teamBScore = randomizer.nextInt(MAX_GOALS)+ 1;
+        setTeamAScore(teamAScore);
+        setTeamBScore(teamBScore);
+        
+        if (teamAScore > teamBScore) {
+            String winner = teamA;
+            
+        }
+        else if (teamAScore < teamBScore){
+            String winner = teamB;
+        }
+        else{
+            System.out.println("Tie game");
       
     }
     
