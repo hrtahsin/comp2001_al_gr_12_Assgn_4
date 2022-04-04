@@ -46,6 +46,10 @@ public class Group
         this.teamList = teamList;
     }
     
+    public void groupChampion()
+    {
+        
+    }
     
 }
 

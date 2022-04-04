@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.Random;
 /**
  * Write a description of class Match here.
  * Match class contains informations on each match played
@@ -58,6 +59,19 @@ public class Match
     {
         this.teamB = teamB;
     }
-    public goalCount
-    public knockOut
+    
+    public void matchWinner(Team teamA, Team teamB)
+    {
+      
+    }
+    
+    public void goalCount()
+    {
+        
+    }
+    
+    public void knockOut()
+    {
+        
+    }
 }
