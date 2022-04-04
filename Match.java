@@ -68,25 +68,26 @@ public class Match
         this.teamB = teamB;
     }
     
-    public void matchWinner(Team teamA, Team teamB)
-    {
-        public void matchWinner(Team teamA, Team teamB)
+    public void matchWinner(Team teamA, Team teamB, Team matchWinner)
     {
         int teamAScore = randomizer.nextInt(MAX_GOALS) + 1;
         int teamBScore = randomizer.nextInt(MAX_GOALS)+ 1;
         setTeamAScore(teamAScore);
         setTeamBScore(teamBScore);
         
-        if (teamAScore > teamBScore) {
-            String winner = teamA;
-            
+        if (teamAScore > teamBScore) 
+        {
+            Team matchwinner = teamA;
         }
-        else if (teamAScore < teamBScore){
-            String winner = teamB;
+        else if (teamAScore < teamBScore)
+        {
+            Team matchwinner = teamB;
         }
-        else{
+        else
+        {
             System.out.println("Tie game");
-      
+        }
+          
     }
     
     public void goalCount()
