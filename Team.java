@@ -109,8 +109,4 @@ public class Team
         matchesPlayed = i;
     }
     
-    public void printDetails()
-    {
-        
-    }
 }
