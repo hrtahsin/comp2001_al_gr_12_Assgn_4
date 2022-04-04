@@ -1,5 +1,6 @@
 import java.util.Date;
 import java.util.Random;
+import java.util.*;
 /**
  * Write a description of class Match here.
  * Match class contains informations on each match played
